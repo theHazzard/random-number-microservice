@@ -1,0 +1,21 @@
+[package]
+name = "random-number-microservice"
+version = "0.1.0"
+authors = ["hazzard <thehazzard@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.12"
+rand = "0.6.5"
+log = "0.4"
+pretty_env_logger = "0.3.0"
+env_logger = "0.6.1"
+dotenv = "0.13"
+clap = "2.33.0"
+serde = "1.0"
+serde_derive = "1.0"
+toml = "0.5.0"
+futures = "0.1"
+serde_json = "1.0"
+queryst = "2.0.0"
+failure = "0.1.5"
